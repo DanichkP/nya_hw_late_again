@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns="http://example.com/notebook"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://example.com/notebook notebook.xsd">
+
+    <offices>
+        <office code="HR">Отдел кадров</office>
+        <office code="DEV">Отдел разработки</office>
+    </offices>
+
+    <person id="p1" office="HR">
+        <name>
+            <first>Анна</first>
+            <surname>Петрова</surname>
+        </name>
+        <address>
+            <city>Москва</city>
+            <street>ул. Тверская, 10</street>
+            <index>101000</index>
+        </address>
+        <phones>
+            <phone type="work">123-45-67</phone>
+            <phone>890-12-34</phone>
+        </phones>
+    </person>
+
+    <person id="p2" office="DEV">
+        <name>
+            <first>Иван</first>
+            <surname>Сидоров</surname>
+        </name>
+        <address>
+            <index>119019</index>
+            <city>Москва</city>
+            <street>ул. Арбат, 5</street>
+        </address>
+        <phones>
+            <phone type="home">555-66-77</phone>
+        </phones>
+    </person>
+
+</notebook>
